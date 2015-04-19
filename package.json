@@ -7,6 +7,8 @@
     "build": "babel src/index.js > lib/index.js",
     "test": "npm run build && mocha --compilers js:babel/register test"
   },
+  "bugs": "https://github.com/jesstelford/reflux-triggerable-mixin/issues",
+  "repository": "jesstelford/reflux-triggerable-mixin",
   "keywords": [
     "reflux",
     "mixin",
