@@ -1,0 +1,5 @@
+node_modules/*
+build/*
+lib/*
+public/js/vendor/*
+public/js/main.js

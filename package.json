@@ -1,0 +1,28 @@
+{
+  "name": "reflux-triggerable-mixin",
+  "version": "1.0.0",
+  "description": "Reflux stores mixin adding `triggerable` syntax similar to `listenable`.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src/index.js > lib/index.js",
+    "test": "npm run build && mocha --compilers js:babel/register test"
+  },
+  "keywords": [
+    "reflux",
+    "mixin",
+    "triggerable",
+    "event",
+    "events"
+  ],
+  "author": "Jess Telford <hi@jes.st> (http://jes.st)",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel": "^5.0.12",
+    "chai": "^2.1.0",
+    "reflux": "^0.2.5",
+    "sinon": "^1.12.2"
+  }
+}
