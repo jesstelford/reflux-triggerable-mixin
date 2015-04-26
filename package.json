@@ -20,11 +20,13 @@
   "license": "ISC",
   "dependencies": {
   },
+  "peerDependencies": {
+    "reflux": "^0.2.5"
+  },
   "devDependencies": {
     "babel": "^5.0.12",
     "chai": "^2.1.0",
     "mocha": "^2.1.0",
-    "reflux": "^0.2.5",
     "sinon": "^1.12.2"
   }
 }
