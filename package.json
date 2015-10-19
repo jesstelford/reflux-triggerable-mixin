@@ -21,7 +21,7 @@
   "dependencies": {
   },
   "peerDependencies": {
-    "reflux": "^0.2.5"
+    "reflux": ">=0.2.5"
   },
   "devDependencies": {
     "babel": "^5.0.12",
