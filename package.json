@@ -1,6 +1,6 @@
 {
   "name": "reflux-triggerable-mixin",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Reflux stores mixin adding `triggerable` syntax similar to `listenable`.",
   "main": "lib/index.js",
   "scripts": {
